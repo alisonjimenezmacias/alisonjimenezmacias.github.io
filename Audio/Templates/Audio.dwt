@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Documento sin título</title>
+<!-- TemplateEndEditable -->
+<link href="file:///D|/css/Style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body main section {
+    width: 80%;
+}
+</style>
+<link href="../style.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<header>
+  <h1>Audio en html&nbsp;</h1>
+</header>
+<nav>
+  <ul>
+    <li><a href="file:///D|/Firts_page.html">Inicio</a>&nbsp;</li>
+    <li><a href="../Galeria.html">Galeria</a>&nbsp;</li>
+    <li><a href="../Practicas.html">Practicas</a>&nbsp;</li>
+    <li><a href="../contacto.html">Contacto</a>&nbsp;</li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Audio&nbsp;</h2>
+    <p>Técnica relacionada con la reproducción, grabación y transmisión del sonido. Usado también como adjetivo.</p>
+    <!-- TemplateBeginEditable name="EditRegion1" -->
+    <audio controls>
+      <source src="../Audio/gospel-choir-heavenly-transition-3-186880 (1).mp3" type="audio/mp3">
+    </audio>
+    <!-- TemplateEndEditable -->&nbsp;</section>
+  <section>
+    <h2>Audio con reproduccion ciclica</h2>
+    <p><strong> La posibilidad de que una vez terminada de reproducirse el archivo de audio, vídeo o lista, comienza nuevamente la reproducción de manera continuada</strong></p>
+    <audio controls="controls" loop="loop" >
+      <source src="../Audio/labyrinth-for-the-brain-190096.mp3" type="audio/mp3">
+    </audio>
+  &nbsp;</section>
+  <section>
+    <h2>Audio silenciado y con autoreproducción</h2>
+    <p>El silencio es la<strong>ausencia total del sonido</strong>.</p>
+    <audio controls="controls" muted="muted" autoplay="autoplay" >
+      <source src="../Audio/large-underwater-explosion-190270.mp3" type="audio/mp3">
+    </audio>
+  &nbsp;</section>
+  <section>
+    <h2>Audio de banco de audios</h2>
+    <p>El ruido blanco o alteración blanca es una señal aleatoria que se caracteriza por el hecho de que sus valores de señal en dos tiempos diferentes no guardan correlación estadística</p>
+  &nbsp;
+  <audio controls>
+    <source src="../Audio/production-elements-impactor-e-188986.mp3" type="audio/mp3">
+  </audio>
+  <p>&nbsp;</p>
+  </section>
+&nbsp;</main>
+<footer>
+  <h6>Elaborado por Carmelo Contreras Teodoro&nbsp;</h6>
+&nbsp;</footer>
+</body>
+</html>
